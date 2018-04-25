@@ -9,16 +9,24 @@
             left: 0;
             top: 0;
         }
+
+        #can:-webkit-full-screen {
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
 
-<div hidden>
+<div>
     <canvas width = '500px' height = '200px' id = 'can'></canvas>
 </div>
 
-<div id = "mainBox">
-    <img id = "renderImage" hidden>
+<br>
+<br>
+
+<div>
+    <button id = "btn">На весь экран</button>
 </div>
 
 <script src = "./scripts/RESULT.js"></script>
