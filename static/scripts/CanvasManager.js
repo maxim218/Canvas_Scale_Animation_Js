@@ -18,10 +18,6 @@ export default class CanvasManager {
         this.drawRectangle();
     }
 
-    getCanvas() {
-        return this.can;
-    }
-
     initPosition() {
         this.x = 0;
         this.y = 50;
