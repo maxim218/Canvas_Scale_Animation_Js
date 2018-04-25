@@ -10,7 +10,7 @@ class Start {
 
         document.getElementById("btn").onclick = function() {
             document.getElementById('can').webkitRequestFullscreen();
-        }
+        };
 
         let interval = setInterval(() => {
             this.canvasManager.moveLeft();
